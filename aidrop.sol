@@ -2,6 +2,7 @@
 pragma solidity ^0.8.3;
 
 import '@openzeppelin/contracts/token/ERC20/IERC20.sol';
+import './verify.sol';
 
 contract Airdrop {
   address public admin;
